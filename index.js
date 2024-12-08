@@ -11,3 +11,8 @@ const login = function(password){
   }
 }
 login('1234');
+
+const signUp = function(username, password){
+  console.log(`Hi ${username}, your sign up information has been stored. Thank you!`);
+}
+signUp('wunlimzhe', '123');
